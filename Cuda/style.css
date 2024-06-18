@@ -1,0 +1,489 @@
+*{
+    font-family: "Titillium Web", sans-serif;
+    scroll-behavior: smooth;
+}
+body{
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+}
+::-webkit-scrollbar{
+    width: 10px;
+}
+    
+::-webkit-scrollbar-thumb{
+ background-color: #5e84eb;
+ height: 20px;
+}
+::-webkit-scrollbar-thumb:hover{
+    background-color:#41085e ;
+}
+
+
+.container{
+    width: 80%;
+    padding-top: 80px; 
+    padding-bottom: 80px;
+    margin: 0 auto;
+}
+
+/* header top section start*/
+
+header{
+    background-color:#ae44d8;
+    overflow: hidden;
+}
+.header_top{
+    margin-top: -30px;
+    position: fixed;
+   
+}
+
+.logo{
+    width: 20%;
+    float: left;
+    margin-right: 500px;
+}
+ .logo img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-top: -20px;
+ }
+ .logo img:hover{
+    transform: rotate(360deg);
+    transform-origin: left;
+    cursor: pointer;
+ }
+.nav{
+    width: 80%;
+    float: right;
+    margin-top: -80px;
+}
+
+.nav ul{
+    float: right;
+    margin: 0px, 0px 100px 0px;
+    padding: 0px;
+    text-align: right;
+}
+
+.nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 15px;
+}
+.nav ul li a{
+    color: #052716;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 5px 12px;
+    display: block;
+    transition: 0.5s;
+    border-radius: 5px;
+    font-weight: 700;
+}
+
+.nav ul li a:hover{
+    background-color:#643a79 ;
+    color: #fff;
+}
+
+/* header top section end*/
+.clear{
+    content: '';
+    clear: both;
+}
+
+/* header content section start*/
+.header_content{
+    text-align: center;
+    margin: auto;
+    margin-top: 143px;
+    width: 490px;
+    
+}
+.header_content h2{
+    text-align: center;
+    color: #fff;
+    padding-bottom: 20px;
+}
+.brown_btn{
+    width: 280px;
+    background-color:#eb7d4b ;
+    text-align: center;
+    padding: 15px;
+   display: block;
+   margin: 0 auto;
+   text-decoration: none;
+   color: #fff;
+   text-transform: uppercase;
+    font-weight: 500;
+    word-spacing: 4px;
+}
+
+.brown_btn:hover{
+    background-color: #643a79
+}
+
+/* header content section end*/
+
+/* sERVICE section START*/
+.service{
+    background-color: #17c2a4;
+    overflow: hidden;
+}
+
+.section_header{
+    width: 200px auto;
+    text-align: center;
+    color: #fff;
+    overflow: hidden;
+}
+.section_header h2{
+    letter-spacing: 2px ;
+}
+.border{
+    content: '';
+    height: 3px;
+    width: 80px;
+    background-color: #14a58c;
+    border-width: inherit;
+    margin: 0 auto;
+    display: block;
+}
+
+.service_box{
+    width: 22%;
+    float: left;
+    margin-left: 10px;
+    text-align: center;
+    color: #fff;
+    margin-top: 50px;
+    padding-bottom: 50px;
+}
+
+.service_box:hover{
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+/* service section end*/
+
+
+/* Our Team area starts here */
+
+.team_container h2 p{
+    color: #3c4761;
+}
+
+.team_box{
+    width: 22%;
+    float: left;
+    text-align: center;
+    padding: 3px 12px;
+    color: #5d677b;
+    
+}
+.team_box img{
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+}
+.team_box h4{
+    font-size: 24px;
+    margin-top: 04px;
+    margin-bottom: 0;
+}
+.team_box h5{
+    font-size: 15px;
+    margin-top: 0px;
+}
+.team{
+    padding-bottom: 100px;
+}
+.social_icon{
+    padding-bottom: 80px;
+}
+
+.social_icon img{
+   height: 30px;
+   width: 30px;
+   opacity: 0.3;
+   padding: 06px;
+}
+
+/* Our Team area end here */
+.clear2{
+    content: '';
+    width: 100%;
+    clear: both;
+}
+
+/* Our skills area start here */
+.skills{
+    background-color: #e7f1f8;
+}
+.skill_images{
+    background-color: #e7f1f8;
+    padding-bottom: 250px;
+}
+
+
+
+.skills .container .section_header p{
+    width: 500px;
+    text-align: center;
+    display: inline-block;
+    align-items: center;
+}
+
+.skill_images{
+    margin-top: 40px;
+    margin-left: 50px;
+    border-radius: 50%;
+}
+.skill{
+    float: left;
+    width: 24%;
+    margin-top: 80px;
+    
+}
+.skill img{
+    height: 100px;
+    width: 100px;
+    align-items: center;
+    margin-left: 65px;
+}
+
+.skill h4{
+    text-align: center;
+    padding-left: 20px;
+    margin-top: 0;
+}
+
+/* Our skills area end here */
+.clear3{
+    content: '';
+    width: 100%;
+    clear: both;
+}
+/* Our portfolio area start here */
+
+/* portfolio header */
+.portfolio{
+    background-color: #ffdd99;
+}
+.filter_list{
+    padding-bottom: 40px;
+}
+.filter_btn{
+    height: 30px;
+    width: 60px;
+    background: #ebc985;
+    border: inherit;
+    margin-left: 5px;
+}
+.filter_btn:hover{
+    background: #fff;
+}
+.filter_btn a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color:#393939 ;
+}
+/* portfolio header */
+
+/* porfolio imame */
+.portfolio_images{
+    align-items: center;
+}
+
+.portfolio_image{
+    float: left;
+    width: 49%;
+}
+.portfolio_image h3{
+    text-align: center;
+    color: #60584a;
+}
+.portfolio_image img{
+    width: 100%;
+}
+
+.ocean_btn{
+    height: 50px;
+    width: 230px;
+    background: #17c2a4;
+    border: inherit;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    border-radius: 3px;
+}
+.ocean_btn a{
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-size: 16px;
+}
+.ocean_btn:hover{
+    background-color: #643a79;
+}
+/* portfolio image */ 
+
+/* Our portfolio area end here */
+.clear4{
+    content: '';
+    clear: both;
+}
+/* Our Testimonial area start here */
+
+.testimonials{
+    background-color: #d74680;
+
+}
+
+.border2{
+    content: '';
+    height: 3px;
+    width: 80px;
+    background-color: #b73c6d;
+    border-width: inherit;
+    margin: 0 auto;
+    display: block;
+}
+
+.testimonial_boxes{
+    margin-top: 50px;
+}
+.testimonial_boxes::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+.testimonial_img{
+    width: 20%;
+}
+.testimonial_single_box img{
+    float: left;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: 20px;
+}
+.testimonial_single_box{
+    float: left;
+    width: 48%;
+}
+.testimonial_content{
+    width: 78%;
+    float: right;
+}
+.testimonial_content p{
+    color: #fff;
+}
+.testimonial_content h3{
+    color: #fff;
+    margin-bottom: 0;
+}
+.testimonial_content h5{
+    color: #ffdd99;
+    margin-top: 0;
+}
+
+/* Our Testimonial area end here */
+
+
+/* Our contact area start here */
+
+.contact{
+    background-color: #3c5499;
+}
+.border3{
+    content: '';
+    height: 3px;
+    width: 80px;
+    background-color: #273a71;
+    border-width: inherit;
+    margin: 0 auto;
+    display: block;
+}
+.text1 input{
+    background-color: #273a71;
+    border: inherit;
+    margin-top: 30px;
+    padding: 10px;
+    width: 35%;
+    border-radius: 2px;
+    color: #fff;
+}
+.text1 input:first-child{
+    margin-right: 25px;
+}
+.text2 textarea{
+    width: 76%;
+    background-color: #273a71;
+    border: inherit;
+    margin-top: 20px;
+    border-radius: 2px;
+    color: #fff;
+}
+.ocean_btn2{
+    height: 50px;
+    width: 220px;
+    background: #30bae7;
+    border: inherit;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    border-radius: 3px;
+}
+.ocean_btn2 a{
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-size: 16px;
+}
+.ocean_btn2:hover{
+    background-color: #273a71;
+}
+/* Our contact area end here */
+
+/* footer section start here */
+.footer_container{
+    height: 80px;
+    margin: 0 auto;
+    background-color: #344b8e;
+}
+
+.footer{
+    margin-bottom: 0;
+    height: 80px;
+    align-items: center;
+}
+.footer ul{
+    margin-left: 250px;
+    margin-top: 0;
+    margin-bottom: 0;
+    align-items: center;
+}
+.footer ul li{
+    display: inline-block;
+   padding: 25px;
+}
+.footer ul li a{
+    text-decoration: none;
+    text-transform: capitalize;
+    color: #fff;
+    font-weight: 500;
+}
+.footer ul li a:hover{
+    color: #30bae7;
+}
+
+/* footer section end here */
+
